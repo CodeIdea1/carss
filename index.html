@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Poetsen+One&display=swap" rel="stylesheet">    
+
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loading-background">
+            <div class="loading-container">
+                <div class="numper-0">
+                    <span>0</span>
+                    <span>1</span>
+                </div>
+                <div class="numper-1">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>0</span>
+                </div>
+                <div class="numper-2">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>0</span>
+                </div>
+                <div class="last">%</div>
+            </div>
+            <img class="icon" src="imgs/icon.png" alt="">
+        </div>
+    </div>
+    <div id="content" style="display: none;">
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="">
+                </div>
+                <div class="left">
+                    <div class="links-container">
+                        <ul class="ul">
+                            <li><a href="#landing-page">Landing Page</a></li>
+                            <li><a href="#modern-app">Modern App</a></li>
+                            <li><a href="#vehicle-fleet">Vehicle Fleet</a></li>
+                            <li><a href="#features">key features</a></li>
+                            <button class="button"><a href="#footer">Download App</a></button>
+                        </ul>
+                        <div class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="landing-page" id="landing-page">
+            <div class="container">
+                <div class="information">
+                    <h1>Premium Car Renatal <br> In New York</h1>
+                    <p>
+                        Don't deny yourself the pleasure of driving the best premium cars from around the world here and now
+                    </p>
+                </div>
+                <div class="car">
+                    <img src="imgs/landing-page-car.png" alt="">
+                    <img class="layer layer1" src="imgs/layer2.png" alt="">
+                    <img class="layer layer2" src="imgs/layer2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cars-logos">
+            <div class="container">
+                <div class="car-logo logo1"><img src="imgs/logo11.png" alt=""></div>
+                <div class="car-logo logo2"><img src="imgs/logo22.png" alt=""></div>
+                <div class="car-logo logo3"><img src="imgs/logo3.png" alt=""></div>
+                <div class="car-logo logo4"><img src="imgs/logo4.png" alt=""></div>
+                <div class="car-logo logo5"><img src="imgs/logo7.png" alt=""></div>
+                <div class="car-logo logo6"><img src="imgs/logo66.png" alt=""></div>
+                <div class="car-logo logo7"><img src="imgs/logo55.png" alt=""></div>
+                <div class="car-logo logo8"><img src="imgs/logo88.png" alt=""></div>
+                <div class="car-logo logo9"><img src="imgs/logo99.png" alt=""></div>
+            </div>
+        </div>
+        <div class="modern-app" id="modern-app">
+            <div class="container">
+                <div class="mobiles">
+                    <img class="mobile mobile1" src="imgs/mobile2 - Copy.png" alt="">
+                    <img class="mobile mobile2" src="imgs/mobile2.png" alt="">
+                </div>
+                <div class="information">
+                    <h2>Modern App</h2>
+                    <p>
+                        We developed a simple and functional app. 
+                        it is built in such a way as to simplify the problem 
+                        of the car selection and rental process. view
+                        the location, statement, and other information 
+                        about each of the vehicles in one click.               
+                    </p>
+                    <button class="button">Download App</button>
+                </div>
+            </div>
+        </div>
+        <div class="vehicle-fleet" id="vehicle-fleet">
+            <div class="container">
+                <h2>Our Vehicle Fleet</h2>
+                <p>
+                    We provide oue customers with the most incredible driving emotions.
+                    thats why we have only world-class cars in our fleet.   
+                </p>
+                <ul class="switcher">
+                    <li data-cat=".premium">Premium</li>
+                    <li data-cat=".coupe">Coupe</li>
+                    <li class="active" data-cat=".hypercars">Hypercars</li>
+                    <li data-cat=".sportcar">Sportcar</li>
+                    <li class="active" data-cat=".cabriolet">Cabriolet</li>
+                </ul>
+                <div class="vehicles-container">
+                    <div class="car hypercars premium">
+                        <img src="imgs/car1.PNG" alt="">
+                    </div>
+                    <div class="car sportcar premium">
+                        <img src="imgs/car2.PNG" alt="">
+                    </div>
+                    <div class="car hypercars coupe premium">
+                        <img src="imgs/car3.PNG" alt="">
+                    </div>
+                    <div class="car cabriolet premium">
+                        <img src="imgs/car4.PNG" alt="">
+                    </div>
+                    <div class="car sportcar hypercars premium">
+                        <img src="imgs/car5.PNG" alt="">
+                    </div>
+                    <div class="car car6 premium">
+                        <img src="imgs/car6.PNG" alt="">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="features" id="features">
+            <div class="container">
+                <h2>key features</h2>
+                <p>
+                    We are all about our clints comfort and safety.
+                    thats why we provide the best service you can imagine.
+                </p>
+                <div class="cards-container">
+                    <div class="card card1">
+                        <div class="icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        24-hour car <br> delivery
+                    </div>
+                    <div class="card card2">
+                        <div class="icon">
+                            <i class="fa-regular fa-comment-dots"></i>
+                        </div>
+                        24/7 technical <br>
+                        support
+                    </div>
+                    <div class="card card3">
+                        <div class="icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        All models have a <br>
+                        premium package
+                    </div>
+                    <div class="card card4">
+                        <div class="icon">
+                            <i class="fa-solid fa-shield"></i>
+                        </div>
+                        Absolute <br>
+                        confidentiality
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="drive-card-container">
+                    <img class="drive-card" src="imgs/tyu1.png" alt="">
+                    <div class="text-container">
+                        <h2>Drive With Unique Today</h2>
+                        <p>
+                            Get the app to explore the world of premium cars - that's exciting     
+                        </p>
+                        <button class="button">Download App</button>
+                    </div>
+                </div>
+                <div class="links">
+                    <div class="column column1">
+                        <a href="">Terms</a>
+                        <a href="">Privacy</a>
+                    </div>
+                    <div class="column column2">
+                        <a href="#landing-page">Landing Page</a>
+                        <a href="#modern-app">Modern App</a>
+                        <a href="#vehicle-fleet">Vehicle Fleet</a>
+                        <a href="#features">key features</a>
+                    </div>
+                    <div class="column column3">
+                        <a href="">Subscribe To News</a>
+                        <form action="">
+                            <input type="email" placeholder="Your e-mail">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </form>
+                        <img class="logo" src="imgs/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
